@@ -1,0 +1,723 @@
+/* 
+* Font: Roboto - 700, 400, 500
+* Font: Hind-madurai - 700, 400, 600, 500
+* Font: Fredoka-one - 400
+*
+*/
+
+/* Fonts */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/roboto-v29-latin-regular.woff2") format("woff2"),
+        url("../fonts/roboto-v29-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/roboto-v29-latin-500.woff2") format("woff2"),
+        url("../fonts/roboto-v29-latin-500.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/roboto-v29-latin-700.woff2") format("woff2"),
+        url("../fonts/roboto-v29-latin-700.woff") format("woff");
+}
+
+/* Hind Madurai */
+@font-face {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/hind-madurai-v10-latin-regular.woff2") format("woff2"),
+        url("../fonts/hind-madurai-v10-latin-regular.woff") format("woff");
+}
+
+/* hind-madurai-500 - latin */
+@font-face {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/hind-madurai-v10-latin-500.woff2") format("woff2"),
+        url("../fonts/hind-madurai-v10-latin-500.woff") format("woff");
+}
+
+/* hind-madurai-600 - latin */
+@font-face {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/hind-madurai-v10-latin-600.woff2") format("woff2"),
+        url("../fonts/hind-madurai-v10-latin-600.woff") format("woff");
+}
+
+/* hind-madurai-700 - latin */
+@font-face {
+    font-family: "Hind Madurai";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/hind-madurai-v10-latin-700.woff2") format("woff2"),
+        url("../fonts/hind-madurai-v10-latin-700.woff") format("woff");
+}
+
+/* Fredoka-one */
+/* fredoka-one-regular - latin */
+@font-face {
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/fredoka-one-v12-latin-regular.woff2") format("woff2"),
+        url("../fonts/fredoka-one-v12-latin-regular.woff") format("woff");
+}
+
+/* Fonts end */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    background-color: #F8EDF0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_img {
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.home_list {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 400px;
+    list-style: none;
+}
+
+.home_item {
+    display: inline;
+    padding-left: 90px
+}
+
+.header_link {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    display: inline;
+    color: #4A99D3;
+    padding: 0px;
+}
+
+.header_link:hover {
+    display: inline;
+    color: #4A99D3;
+    padding: 0px;
+}
+
+
+.header_div {
+    display: flex;
+}
+
+.header_div1 {
+    width: 665px;
+    height: 364px;
+    margin-top: 196px;
+    margin-bottom: 213px;
+}
+
+
+.header_small {
+    width: 172px;
+    height: 16px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.header_h3 {
+    margin-top: 6px;
+    margin-bottom: 35px;
+    width: 665px;
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57.33px;
+    line-height: 120.5%;
+}
+
+.header_span {
+    color: rgba(210, 49, 102, 1);
+}
+
+.header_p {
+    width: 523px;
+    height: 78px;
+    color: rgba(15, 1, 1, 1);
+    margin-bottom: 50px;
+    padding-bottom: 0;
+}
+
+.muzqaymoq {
+    width: 697px;
+    height: 697px;
+    /*    margin-right: -900px;*/
+    background-image: url(../image/bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*header qismi tugashi*/
+
+.main {
+    width: 1117px;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.main_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.main_list :hover {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.main_h3 {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.main_p {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    width: 198px;
+    height: 35px;
+}
+
+.main_img {
+    width: 51px;
+    height: 43px;
+}
+
+/*main qismi tugashi;*/
+
+.inner {
+    background-color: #F8EDF0;
+    max-width: 16000px;
+    height: 544px;
+    display: flex;
+}
+
+.inner_div {
+    width: 442px;
+    height: 256px;
+    margin-top: 141px;
+}
+
+.inner_h2 {
+    width: 349px;
+    height: 98px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    margin-bottom: 16px;
+}
+
+.inner_p {
+    width: 442px;
+    height: 58px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.inner_link {
+    text-decoration: none;
+    color: white;
+    padding: 15px 41px;
+    background-color: #D64374;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.inner_img {
+    width: 655px;
+    height: 655px;
+}
+
+/*inner qismi tugashi*/
+
+.buy_h2 {
+    margin-top: 137px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.buy_list {
+    color: dimgrey;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 64px;
+}
+
+.buy_item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid rgba(214, 67, 116, 1);
+}
+
+.buy_item1 {
+    border-bottom: 3px solid rgba(214, 67, 116, 1);
+}
+
+.buy_div1 {
+    display: flex;
+}
+
+.buy {
+    margin-top: 110px;
+}
+
+.buy_link {
+    text-decoration: none;
+    color: white;
+    padding: 15px 41px;
+    background-color: #D64374;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.buy_img1 {
+    margin-right: 100px;
+}
+
+.buy_img2 {
+    margin-left: 100px;
+}
+
+.buy_img1:hover {
+    box-shadow: 5px 5px 15px 2px black;
+}
+
+.buy_img2:hover {
+    box-shadow: 5px 5px 15px 2px black;
+}
+
+.buy1 {
+    margin-top: 110px;
+    width: 444px;
+    text-align: end;
+
+}
+
+.buy_div5 {
+    margin-left: 500px;
+}
+
+.buy_div6 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.buy_small1 {
+    display: block;
+    margin-left: 80px;
+    margin-top: 0px;
+
+}
+
+.buy_h3_3 {
+    margin: 20px 0 0 20px;
+    padding-top: 5px;
+}
+
+.buy_rasm {
+    border-radius: 50%;
+}
+
+.buy_p1 {
+    width: 322px;
+    height: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.buy_qoshtirnoq {
+    display: flex;
+}
+
+.rasm3 {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: content-box;
+}
+
+.rasm_bola {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btf {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    margin: 30px;
+    border-radius: 50%
+}
+
+.polar {
+    display: flex;
+}
+
+.marojni {
+    margin: 0 211px 149px 224px;
+}
+
+/*buy qismi tugashi*/
+
+.hero {
+    height: 578px;
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero_div {
+    margin-left: 134px;
+    margin-top: 90px;
+}
+
+.hero_h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin: 20px;
+}
+
+.hero_p {
+    margin: 20px;
+    width: 607px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+}
+
+.hero_list {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.hero_img1 {
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 19px;
+}
+
+.hero_item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.hero_img3 {
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.hero_img2 {
+    margin-top: 41px;
+}
+
+.hero_img4 {
+    margin-top: 35px;
+}
+
+/*hero qismi tugashi*/
+
+.input {
+    text-align: center;
+}
+
+.input_h1 {
+    width: 522px;
+    height: 123px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    margin: 150px auto;
+    margin-bottom: 36px;
+}
+
+.input_p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline;
+    padding: 29px 156px 29px 25px;
+    box-sizing: border-box;
+    border: 1px solid #FFA3A3;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.input_p1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline;
+    padding: 29px 280px 29px 25px;
+    box-sizing: border-box;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+}
+
+.input_img {
+    padding-left: 153px;
+    padding-right: 33px;
+}
+
+.input_div {
+    width: 660px;
+    height: 74px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 66px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 71px;
+}
+
+.input_div1 {
+    padding: 29px 357px 29px 25px;
+    border: 1px solid #FFA3A3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input_link {
+    text-decoration: none;
+    color: white;
+    padding: 27px 45px 27px 45px;
+    background-color: #D64374;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/*input qismi tugashi*/
+
+.footer {
+    background-color: black;
+}
+
+.footer_img {
+    margin-top: 60px;
+    margin-bottom: 9px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+
+.footer_one {
+    display: flex;
+}
+
+.footer_p {
+    color: dimgray;
+    width: 207px;
+    height: 47px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    margin: 0;
+}
+
+.footer_h3 {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 25px;
+}
+
+.footer_rasm {
+    margin-bottom: 114px;
+}
+
+.footer_list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 114px;
+    margin-left: 37px;
+    color: white;
+}
+
+.footer_item {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.footer_list1 {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 114px;
+    margin-left: 137px;
+    margin-right: 181px;
+    color: white;
+}
+
+.footer_item1 {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.footer_h2 {
+    margin-top: 114px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.footer_input {
+    padding: 0px 0 0px 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    color: dimgray;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: white;
+    padding: 20px 18px;
+    background-color: #D64374;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 168px;
+}
+
+/*ummumiy sayt tugashi*/

@@ -89,7 +89,7 @@ body {
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -290,8 +290,8 @@ body {
 }
 
 .inner_img {
-    width: 655px;
-    height: 655px;
+    width: 629px;
+    height: 544px;
 }
 
 /*inner qismi tugashi*/

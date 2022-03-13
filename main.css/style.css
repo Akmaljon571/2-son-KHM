@@ -195,8 +195,8 @@ body {
 .main_rasm {
     margin: 0 100px 0 0;
     display: inline;
-    width="399px"
-    height="410px"
+    width:399px;
+    height:410px;
 }
 
 .main_div {

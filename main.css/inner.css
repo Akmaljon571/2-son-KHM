@@ -535,14 +535,19 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 100px;
     }
   
     .desktop_line {
-      display: none;
+      /* display: none; */
+      margin-top: 90px;
     }
   
     .desktop_list {
-      display: none;
+      /* display: none; */
+      order: -1;
+      position: absolute;
+      margin-top: 80px;
     }
   
     .desktop_tel {
